@@ -4,7 +4,7 @@ var jwt = require('jsonwebtoken');
 var key = require('fs').readFileSync('./crt/privateKey.key', 'utf8');
 
 var options = {
-    issuer: '3MVG9vtcvGoeH2bjL78f3tlzuhfdNM8oWYZGB7uLJirIeF5dZCRcJwBAkqekf.lVa6H6Gqi864Som7hjzXPLo',
+    issuer: '',
     audience: 'https://login.salesforce.com',
     expiresIn: 3,
     algorithm: 'RS256'
